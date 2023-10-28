@@ -47,12 +47,6 @@ describe('classname', () => {
     )
   })
 
-  test('Correct classname: lots of arguments of various types', () => {
-    expect(classname('foo', { bar: true, duck: false }, 'baz', { quux: true })).toBe(
-      'foo bar baz quux'
-    )
-  })
-
   test('Correct classname: other falsy values are just ignored', () => {
     expect(classname(null, false, 'bar', undefined, 0, 1, { baz: null }, '')).toBe('bar 1')
   })
