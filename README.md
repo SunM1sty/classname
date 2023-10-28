@@ -49,17 +49,12 @@ classname(undefined, 4, ['secondary-4', 3, 6]);
 ```
 
 
-## API
+## Code
 
 ### classname(...args)
 Returns: `string`
 
 The `classname` function can take ***any*** number of arguments, each of which can be an Object, Array, Boolean, or String.
-
-```js
-clsx(true, false, '', null, undefined, 0, NaN);
-//=> ''
-```
 
 ## License
 
