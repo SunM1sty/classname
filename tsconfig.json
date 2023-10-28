@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "outDir": "build",
+    "outDir": "dist",
     "module": "ESNext",
     "target": "es6",
     "strict": true,
@@ -9,8 +9,7 @@
     "allowSyntheticDefaultImports": true,
     "esModuleInterop": true,
     "baseUrl": ".",
-    "declaration": true,
-    "declarationDir": "build"
+    "declaration": true
   },
   "ts-node": {
     "compilerOptions": {
