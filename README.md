@@ -1,5 +1,16 @@
 > An utility for constructing classname string by passing mixed type of arguments.
 
+## Local installation
+
+```
+$ npm ci
+$ npm run build
+```
+Testing with jest
+```
+$ npx jest
+```
+
 ## Install
 
 ```
