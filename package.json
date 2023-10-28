@@ -1,8 +1,10 @@
 {
-  "name": "@m1sty/classname",
+  "name": "m1sty-classname",
   "version": "1.0.0",
   "description": "An utility for constructing classname string by passing mixed type of arguments",
-  "main": "index.ts",
+  "main": "build/index.js",
+  "types": "build/index.d.ts",
+  "private": false,
   "scripts": {
     "build:prod": "webpack --env mode=production",
     "build:dev": "webpack --env mode=development",
@@ -33,7 +35,12 @@
     "url": "https://github.com/SunM1sty/classname/issues"
   },
   "homepage": "https://github.com/SunM1sty/classname#readme",
-  "files": ["build/", "README.md", "LICENSE"],
+  "files": [
+    "build/",
+    "README.md",
+    "LICENSE",
+    "package.json"
+  ],
   "devDependencies": {
     "@types/jest": "^29.5.6",
     "@typescript-eslint/eslint-plugin": "^6.9.0",

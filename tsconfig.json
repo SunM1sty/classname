@@ -2,21 +2,21 @@
   "compilerOptions": {
     "outDir": "build",
     "module": "ESNext",
-    "target": "es5",
+    "target": "es6",
     "strict": true,
     "moduleResolution": "node",
     "noImplicitAny": true,
     "allowSyntheticDefaultImports": true,
     "esModuleInterop": true,
     "baseUrl": ".",
-    "declaration": true
+    "declaration": true,
+    "declarationDir": "build"
   },
   "ts-node": {
     "compilerOptions": {
       "module": "CommonJS"
     }
   },
-  "exclude": [
-    "node_modules", "config", "src/**.test.ts", "**.config.ts",
-  ]
+  "exclude": ["node_modules", "src/**.test.ts"],
+  "include": ["src/**/*.ts"]
 }

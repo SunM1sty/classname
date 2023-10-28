@@ -14,7 +14,6 @@ export default (env: BuildEnv): webpack.Configuration => {
 
     return buildWebpackConfig({
         mode: MODE,
-        paths,
-        isDev: MODE === 'development'
+        paths
     })
 };

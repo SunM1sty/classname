@@ -3,13 +3,13 @@
 ## Install
 
 ```
-$ npm i -D @m1sty/classname
+$ npm i m1sty-classname@latest
 ```
 
 ## Usage
 
 ```js
-import { classname } from '@m1sty/classname';
+import { classname } from 'm1sty-classname';
 
 classname();
 //=> ''

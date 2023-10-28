@@ -1,8 +1,12 @@
 export function classname(
   ...args: (
-    | MayBe<number | string | boolean>
+    | number
+    | string
+    | boolean
+    | null
+    | undefined
     | (string | number)[]
-    | Record<string | number, MayBe<boolean | number>>
+    | Record<string | number, boolean | number | null | undefined>
   )[]
 ): string {
   const classNames: (string | number)[] = []
